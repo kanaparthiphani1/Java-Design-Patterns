@@ -1,6 +1,9 @@
 package Singleton;
 
 public class Client {
-    DB instance = DB.getConnection();
+    public static void main(String[] args) {
+
+        DB instance = DB.getConnection();
+    }
 
 }
